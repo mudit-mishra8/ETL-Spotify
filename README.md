@@ -1,8 +1,16 @@
-# AWS Data Engineering Project: Spotify Global Playlist Data Collection and Analysis
+# AWS Data Engineering Project: Spotify Data Pipeline
 
-This project involves collecting daily global playlist data from Spotify using their API and analyzing it using AWS services. The architecture of this project is designed to perform ETL (Extract, Transform, Load) operations.
+![Architectural Diagram](link-to-your-architectural-diagram-image)
 
-![Architectural Diagram](https://github.com/mudit-mishra8/ETL-Spotify/blob/main/ETL.png)
+## Objectives
+
+The primary objectives of this project are:
+
+- To collect daily global playlist data from Spotify in an automated and scalable manner.
+- To process and transform the raw data into structured formats (CSV files) that are optimized for analytics.
+- To store and manage large datasets effectively using Amazon S3.
+- To create a data catalog that represents the processed data and is optimized for query performance.
+- To enable users to run ad-hoc SQL queries on the data catalog using Amazon Athena, allowing for data exploration and analytics.
 
 ## Overview
 
@@ -26,23 +34,3 @@ This project involves collecting daily global playlist data from Spotify using t
 
 2. **Data Transformation Lambda Function**: This function is invoked by an S3 trigger. It transforms the extracted data into 3 CSV files: songs, albums, and artists.
    - [Link to the code](https://github.com/mudit-mishra8/ETL-Spotify/blob/main/Spotify_data_transformation.py)
-
-## Data Analysis
-
-Amazon Athena is used for analyzing the data. Users can run SQL queries in Athena on the data catalog created by AWS Glue to derive insights from the playlist data.
-
-## Getting Started
-
-Explain here how someone can replicate your project, any prerequisites, and steps to setup.
-
-## Conclusion
-
-Provide final thoughts, what insights you were able to derive, and possible improvements or features that could be added in the future.
-
-## Acknowledgments
-
-If applicable, give credits to any source or individual that requires mentioning.
-
-## License
-
-Provide details about the license of your code if applicable.
