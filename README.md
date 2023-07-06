@@ -1,6 +1,6 @@
 # AWS Data Engineering Project: Spotify Data Pipeline
 
-![Architectural Diagram](link-to-your-architectural-diagram-image)
+![Architectural Diagram](https://github.com/mudit-mishra8/ETL-Spotify/blob/main/ETL.png)
 
 ## Objectives
 
